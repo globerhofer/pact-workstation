@@ -28,6 +28,11 @@ recipes:
 - sprout-osx-apps::node_js
 - sprout-osx-apps::qt
 
+# development (iOS)
+
+# development (Android)
+# intellij
+
 # apps
 - pivotal_workstation::screen_sharing_app
 - sprout-osx-apps::shiftit
@@ -35,7 +40,6 @@ recipes:
 - sprout-osx-apps::menumeters
 - sprout-osx-apps::ccmenu
 - pivotal_workstation::github_for_mac
-- sprout-osx-apps::iterm2
 - sprout-osx-apps::keycastr
 
 # apps (editors)
@@ -43,32 +47,40 @@ recipes:
 - sprout-osx-apps::textmate_bundles
 - sprout-osx-apps::textmate_preferences
 
-- sprout-osx-apps::macvim
-- sprout-osx-apps::ctags_exuberant
-
 - sprout-osx-apps::rubymine
-- sprout-osx-rubymine::preferences
 
 - sprout-homebrew
 
 node_attributes:
-  git_pairs_domain: pivotallabs.com
+  git_pairs_prefix: pair
+  git_pairs_domain: pactapp.com
   git_pairs_authors:
-    - initials: ah
-      name: Abhijit Hiremagalur
-      shortname: abhi
-    - initials: bc
-      name: Brian Cunnie
-      shortname: cunnie
-    - initials: jrhb
-      name: Jonathan Barnes
-    - initials: lw
-      name: Luke Winikates
-      shortname: lwinikates
+    - initials: go
+      name: Geoff Oberhofer
+      shortname: geoff
+    - initials: km
+      name: Ken Mayer
+      shortname: ken
+    - initials: pd
+      name: Pradyumna Dandwate
+	  shortname: paddy
+    - initials: aps
+      name: Alvaro Perez-Shirley
+      shortname: alvaro
+    - initials: br
+      name: Bobby Ren
+      shortname: bobby
+    - initials: ks
+      name: Karl Schults
+      shortname: Karl
+    - initials: lk
+      name: Laura Ku
+      shortname: laura
   git_projects:
-    -
-      - sprout-wrap
-      - https://github.com/pivotal-sprout/sprout-wrap.git
+#    -
+#      - sprout-wrap
+#      - git@github.com:Pact/sprout-wrap.git
+      
   sprout:
     homebrew:
       casks:
