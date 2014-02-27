@@ -23,10 +23,7 @@ recipes:
 - sprout-osx-rbenv
 - pivotal_workstation::gem_setup
 - pivotal_workstation::mysql
-- pivotal_workstation::postgres
 - sprout-osx-apps::imagemagick
-- sprout-osx-apps::node_js
-- sprout-osx-apps::qt
 
 # development (iOS)
 
@@ -43,7 +40,7 @@ recipes:
 - sprout-osx-apps::keycastr
 
 # apps (editors)
-- sprout-osx-apps::textmate
+- sprout-osx-apps::textmate2
 - sprout-osx-apps::textmate_bundles
 - sprout-osx-apps::textmate_preferences
 
@@ -77,9 +74,9 @@ node_attributes:
       name: Laura Ku
       shortname: laura
   git_projects:
-#    -
-#      - sprout-wrap
-#      - git@github.com:Pact/sprout-wrap.git
+    -
+      - pact-workstation
+      - git@github.com:Pact/pact-workstation.git
       
   sprout:
     homebrew:
@@ -89,6 +86,12 @@ node_attributes:
         - firefox
         - gitx-rowanj
         - google-chrome
-        - skype
         - vagrant
         - virtualbox
+        - andriod_sdk
+        - flowdock
+        - flycut
+        - heroku_toolbelt
+        - tig
+        - appcode
+        - intellij-idea
