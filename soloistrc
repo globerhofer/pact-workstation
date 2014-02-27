@@ -24,11 +24,11 @@ recipes:
 - pivotal_workstation::gem_setup
 - pivotal_workstation::mysql
 - sprout-osx-apps::imagemagick
+- sprout-osx-apps::flycut
 
 # development (iOS)
 
 # development (Android)
-# intellij
 
 # apps
 - pivotal_workstation::screen_sharing_app
@@ -90,7 +90,6 @@ node_attributes:
         - virtualbox
         - andriod_sdk
         - flowdock
-        - flycut
         - heroku_toolbelt
         - tig
         - appcode
