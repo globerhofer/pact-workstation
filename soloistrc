@@ -90,7 +90,7 @@ node_attributes:
         - virtualbox
         - andriod_sdk
         - flowdock
-        - heroku_toolbelt
+        - heroku-toolbelt
         - tig
         - appcode
         - intellij-idea
