@@ -18,6 +18,7 @@ recipes:
 - sprout-osx-git::git_projects
 - pivotal_workstation::git_config_global_defaults
 - sprout-osx-git::git_scripts
+- pivotal_workstation::redis
 
 # development (rails)
 - sprout-osx-rbenv
