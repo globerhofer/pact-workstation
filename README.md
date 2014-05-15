@@ -24,20 +24,24 @@ Don't forget to start up Xcode once it's installed so that you can agree to the 
 ### 2. Install Command Line Tools
   
     xcode-select --install
-  
-### 3. Clone this project to ~/pact-workstation
+
+### 3. Set up ssh credentials
+
+    See Ken to get a copy of the ssh keys necessary to contact github and heroku
+    
+### 4. Clone this project to ~/pact-workstation
 
     git clone https://github.com/pact/pact-workstation.git
     cd ~/pact-workstation
 
-### 4. Install soloist & and other required gems
+### 5. Install soloist & and other required gems
 
 If you're running under rvm or rbenv, you shouldn't preface the following commands with `sudo`.
 
     sudo gem install bundler
     sudo bundle
 
-### 5. Run soloist
+### 6. Run soloist
 
 [You may want to modify your Energy Saver preferences (**System Preferences &rarr; Energy Saver &rarr; Computer Sleep &rarr; 3hrs**) because soloist usually takes 2-3 hours to complete.]
 
