@@ -1,4 +1,4 @@
-# sprout-wrap
+# Pact Workstation Setup
 
 [![Build Status](https://travis-ci.org/pivotal-sprout/sprout-wrap.png?branch=master)](https://travis-ci.org/pivotal-sprout/sprout-wrap)
 
