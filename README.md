@@ -25,10 +25,10 @@ Don't forget to start up Xcode once it's installed so that you can agree to the 
   
     xcode-select --install
   
-### 3. Clone this project
+### 3. Clone this project to ~/pact-workstation
 
-    git clone https://github.com/pivotal-sprout/sprout-wrap.git
-    cd sprout-wrap
+    git clone https://github.com/pact/pact-workstation.git
+    cd ~/pact-workstation
 
 ### 4. Install soloist & and other required gems
 
