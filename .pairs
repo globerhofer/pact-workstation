@@ -1,0 +1,11 @@
+# This file is managed by chef! Override node.default["git_pairs_authors"] in attributes/git_pairs.rb to modify.
+
+pairs:
+  km: Ken Mayer; ken
+  lk: Laura Ku; laura
+  ks: Karl Schults; karl
+  aps: Alvaro Perez-Shirley; alvaro
+email:
+  domain: pactapp.com
+  prefix: pair
+global: true
