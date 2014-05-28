@@ -41,9 +41,13 @@ recipes:
 - sprout-homebrew
 
 node_attributes:
+  sprout:
+    git:
+      aliases:
+        - 'mff "merge --ff-only origin/master"'
   gym-pact:
     git:
-      domain: pactapp.com    
+      domain: pactapp.com
       prefix: pair
       authors:
         - initials: go
@@ -70,7 +74,7 @@ node_attributes:
       projects:
         -
           - pact-workstation
-          - git@github.com:Pact/pact-workstation.git      
+          - git@github.com:Pact/pact-workstation.git
     terminal:
       default_profile: 'Homebrew'
     settings:
