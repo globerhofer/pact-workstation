@@ -56,9 +56,6 @@ node_attributes:
         - initials: km
           name: Ken Mayer
           shortname: ken
-        - initials: pd
-          name: Pradyumna Dandwate
-          shortname: paddy
         - initials: aps
           name: Alvaro Perez-Shirley
           shortname: alvaro
