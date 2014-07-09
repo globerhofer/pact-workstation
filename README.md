@@ -27,14 +27,12 @@ Don't forget to start up Xcode once it's installed so that you can agree to the 
 
 If you receive a message about the update server being unavailable and are on Mavericks, then you already have the command line tools.
 
-### 3. Clone this project
-
-### 4. Clone this project to ~/pact-workstation
+### 3. Clone this project to ~/pact-workstation
 
     git clone https://github.com/pact/pact-workstation.git
     cd ~/pact-workstation
 
-### 5. Install soloist & and other required gems
+### 4. Install soloist & and other required gems
 
 If you're running under rvm or rbenv, you shouldn't preface the following commands with `sudo`.
 
@@ -49,7 +47,7 @@ then try downgrading those errors like this:
 
     sudo ARCHFLAGS=-Wno-error=unused-command-line-argument-hard-error-in-future bundle
 
-### 6. Run soloist
+### 5. Run soloist
 
 [You may want to modify your Energy Saver preferences (**System Preferences &rarr; Energy Saver &rarr; Computer Sleep &rarr; 3hrs**) because soloist usually takes 2-3 hours to complete.]
 
