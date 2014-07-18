@@ -28,6 +28,7 @@ recipes:
 # development (iOS)
 
 # development (Android)
+- sprout-osx-apps::android_sdk
 
 # apps
 - sprout-osx-apps::keycastr
